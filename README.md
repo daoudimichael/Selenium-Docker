@@ -21,7 +21,7 @@ Test steps:
 
 1. __Clone project to your local machine:__
 
-- clone the project by copy&paste HTTPS/SSH path to your Terminal (get the path from green right corner botten 'Clone or download')
+- clone the project by copy&paste HTTPS/SSH path to your Terminal (get the path from green right corner botten 'Clone or download') - `git clone` + HTTPS/SSH path
 - Open the project using IDE
 
 2. __Preparation of standalone Chrome Docker container:__

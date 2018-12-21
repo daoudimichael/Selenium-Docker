@@ -22,7 +22,7 @@ Test steps:
 1. __Clone project to your local machine:__
 
 - clone the project by copy&paste HTTPS/SSH path to your Terminal (get the path from green right corner botten 'Clone or download') - `git clone` + HTTPS/SSH path
-- Open the project using IDE (/keweeAssignment/keyweeAssignment)
+- Open the project using IDE (.././keweeAssignment/__keyweeAssignment__)
 
 2. __Preparation of standalone Chrome Docker container:__
 
@@ -51,7 +51,8 @@ Terminal: `docker ps`
 Expected: new line at the running containers list with:
 - IMAGE = "selenium/standalone-chrome"
 - PORT (for example) = "0.0.0.0:32768->4444/tcp 
--> ___set the first port (32768) to environment.properties file in local.port___ <-
+
+-> ___*********** set the first port (f.e: 32768) to environment.properties file (path:/keyweeAssignment/src/main/resources/environment.properties) in local.port ***********___ <-
 
 -> note: the container can be run on a remote machine, in this case, please set the ip address to ip.address at environment.properties file.
 

@@ -54,7 +54,7 @@ Expected: new line at the running containers list with:
 
 -> ___*********** set the first port (f.e: 32768) to environment.properties file (path:/keyweeAssignment/src/main/resources/environment.properties) in local.port ***********___ <-
 
--> note: the container can be run on a remote machine, in this case, please set the ip address to ip.address at environment.properties file.
+-> note: the container can be run on a remote machine, in this case, please set the IP address to ip.address at environment.properties file.
 
 
 3. __run the test__
